@@ -1,0 +1,46 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    
+    <style name="PopupWindowAnimStyleLeftIn">
+        <item name="android:windowEnterAnimation">@anim/sy37_pop_left_in</item>
+    </style>
+
+    <style name="PopupWindowAnimStyleRightIn">
+        <item name="android:windowEnterAnimation">@anim/sy37_pop_right_in</item>
+    </style>
+
+    <!-- 悬浮窗内容样式 -->
+    <style name="style_pop_text_content">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:paddingLeft">2dp</item>
+        <item name="android:paddingRight">2dp</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:layout_marginLeft">4dp</item>
+        <item name="android:layout_marginRight">4dp</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">10sp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:drawablePadding">0dp</item>
+    </style>
+
+    <!-- 悬浮窗展开功能内容样式 -->
+    <style name="style_pop_image_content">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">-7dp</item>
+        <item name="android:layout_marginRight">8dp</item>
+        <item name="android:layout_gravity">right|top</item>
+        <item name="android:visibility">visible</item>
+        <item name="android:src">@drawable/sy37_icon_pop_red</item>
+    </style>
+
+</resources>
